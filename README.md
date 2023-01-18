@@ -1,7 +1,10 @@
 # 最終結果
 
-# discussionまとめ
+# アイデア
+## do
+
+## done
+
+# discussion
 
 # EDA
-
-# 
