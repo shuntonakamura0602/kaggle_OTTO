@@ -48,4 +48,11 @@
 * [3 dimensions Co-visitation matrix](https://www.kaggle.com/competitions/otto-recommender-system/discussion/368538)
 1. これまではAが起きた時のBのco-visitation matrixを作成していたが、AかつBが起きた時のCというco-visitation matrixを作成することができる
 
+* [What are we predicting?](https://www.kaggle.com/competitions/otto-recommender-system/discussion/368541)
+1. ユーザーはOTTOのレコメンドシステムをみて商品を選んでいる
+2. 実際にOTTOのサイトを見てみることが大切
+
+* [Surprising LB 0.587 !!!Share some experimental results](https://www.kaggle.com/competitions/otto-recommender-system/discussion/370116)
+1. 1ユーザーあたり200candidateで精度が向上した
+
 # EDA
