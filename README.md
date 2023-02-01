@@ -10,20 +10,35 @@ GBT rankerでの実装をしたが、colabで実装していることもあっ�
 
 # アイデア
 ・item groupbyでts間隔の平均が短い順(clicks)
+
 ・item groupbyでts間隔の平均が短い順(carts)
+
 ・item groupbyでts間隔の平均が短い順(orders)
+
 ・item groupbyでclicksされた回数順
+
 ・item groupbyでcartsに入れた回数順
+
 ・item groupbyでordersされた回数順
+
 ・session groupbyで直前にclicksされたunique itemの数が多い順
+
 ・session groupbyで直前にcartsされたunique itemの数が多い順
+
 ・session groupbyで直前にordersされたunique itemの数が多い順
+
 ・月曜日にclicksされた回数順
+
 ・日曜日にclicksされた回数順
+
 ・月曜日にcartsされた回数順
+
 ・日曜日にcartsされた回数順
+
 ・月曜日にordersされた回数順
+
 ・日曜日にordersされた回数順
+
 ## do
 
 ## done
