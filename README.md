@@ -1,6 +1,29 @@
 # 最終結果
+<img width="1092" alt="スクリーンショット 2023-02-01 10 40 37" src="https://user-images.githubusercontent.com/63344524/215924069-793f64d2-aa99-49cb-a389-a7d3ac7f6750.png">
+
+
+GBT rankerでの実装をしたが、colabで実装していることもあってメモリ不足となり、ヒューリスティック手法に変更した。
+
+しかし公開noteのスコアを越えることができなかった。
+
+<img width="457" alt="スクリーンショット 2023-02-01 10 44 23" src="https://user-images.githubusercontent.com/63344524/215924561-c3ef430a-2ebe-4466-a19a-21ae7fa27c09.png">
 
 # アイデア
+・item groupbyでts間隔の平均が短い順(clicks)
+・item groupbyでts間隔の平均が短い順(carts)
+・item groupbyでts間隔の平均が短い順(orders)
+・item groupbyでclicksされた回数順
+・item groupbyでcartsに入れた回数順
+・item groupbyでordersされた回数順
+・session groupbyで直前にclicksされたunique itemの数が多い順
+・session groupbyで直前にcartsされたunique itemの数が多い順
+・session groupbyで直前にordersされたunique itemの数が多い順
+・月曜日にclicksされた回数順
+・日曜日にclicksされた回数順
+・月曜日にcartsされた回数順
+・日曜日にcartsされた回数順
+・月曜日にordersされた回数順
+・日曜日にordersされた回数順
 ## do
 
 ## done
